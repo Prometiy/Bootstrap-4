@@ -1,0 +1,472 @@
+<!--=====================================================================================
+ 
+  PROJECTNAME:  Bootstrap setka
+  AUTHOR:       Qo'ziboyev Doston
+  DATA:         09.07.2022
+  CONTACTS      https://t.me/dostonquziboyev
+
+======================================================================================-->
+
+<!DOCTYPE html>
+
+<!--START HTML-->
+<html lang="ru">
+
+<!--START HEAD-->
+
+<head>
+
+	<meta charset="utf-8">
+	<base href="/">
+
+	<title>Примеры урока: «Bootstrap 4. Сетка. Подробное руководство»</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+<!--END HEAD-->
+
+<!--START BODY-->
+
+<body>
+
+	<!--START CONTAINER-->
+	<div class="container">
+
+		<!--START EXAMPLE 1-->
+		<div class="example-bs">
+
+			<div class="row">
+				<!--Col namuna-->
+				<div class="col">
+					<h2>01-dars</br>Bootsrap 4. Setka. To'liq qo'llanma
+				</div>
+			</div>
+
+		</div>
+		<!--END EXAMPLE 1-->
+
+
+		<!--START EXAMPLE 2-->
+
+		<!--START EXAMPLE 2.1-->
+		<div class="example-bs">
+
+			<div class="row">
+				<h3>2.1 Bir xil uzunlikdagi ustunlar.</h3>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<h2>1-ustun</h2>
+				</div>
+				<div class="col">
+					<h2>2-ustun</h2>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<h2>1-ustun</h2>
+				</div>
+				<div class="col">
+					<h2>2-ustun</h2>
+				<div class="col">
+					<h2>3-ustun</h2>
+				</div>
+			</div>
+
+		</div>
+		<!--END EXAMPLE 2.1-->
+
+		<!--START EXAMPLE 2.2-->
+		<div class="example-bs">
+
+			<div class="row">
+				<h3>2.2 Ustunlarga o'lcham berish.</h3>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<h2>1-ustun</h2>
+				</div>
+				<div class="col-6">
+					<h2>2-ustun</h2>
+				</div>
+				<div class="col">
+					<h2>3-ustun</h2>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<h2>1-ustun</h2>
+				</div>
+				<div class="col-8">
+					<h2>2-ustun</h2>
+				</div>
+				<div class="col">
+					<h2>3-ustun</h2>
+				</div>
+			</div>
+
+		</div>
+		<!--END EXAMPLE 2.2-->
+
+		<!--START EXAMPLE 2.3-->
+		<div class="example-bs">
+
+			<div class="row">
+				<h3>2.2 Yozuvlar o'lchami</h3>
+			</div>
+
+			<div class="row justify-content-sm-center">
+				<div class="col col-md-2">1-ustun</div>
+				<div class="col-sm-auto">2-ustun Yozuvniga qarab o'zgaradi</div>
+				<div class="col col-md-2">3-ustun</div>
+			</div>
+
+			<div class="row justify-content-sm-center">
+				<div class="col">1-ustun</div>
+				<div class="col-sm-auto">2-ustun Yozuvniga qarab o'zgaradi</div>
+				<div class="col col-md-2">3-ustun</div>
+			</div>
+
+		</div>
+		<!--END EXAMPLE 2.3-->
+
+		<!--START EXAMPLE 2.4-->
+		<div class="example-bs">
+
+			<div class="row">
+				<h3>2.4 Multi- qatorlar</h3>
+			</div>
+
+			<div class="row">
+				<div class="col">col</div>
+				<div class="col">col</div>
+				<div class="w-100">col</div>
+				<div class="col">col</div>
+				<div class="col">col</div>
+			</div>
+
+		</div>
+		<!--END EXAMPLE 2.4-->
+
+
+		<!--START EXAMPLE 3-->
+
+		<!--START EXAMPLE 3.1-->
+		<div class="example-bs">
+
+			<div class="row">
+				<h3>3. Moslashivchanlik<br>3.1 Breykpointlar</h3>
+			</div>
+			<div class="row">
+				<div class="col">col</div>
+				<div class="col">col</div>
+				<div class="col">col</div>
+				<div class="col">col</div>
+			</div>
+			<div class="row">
+				<!--Middledan kattalashganda 8 va 4 bo'linadi-->
+				<div class="col-6 col-md-8">col-8</div>
+				<div class="col-6 col-md-4">col-4</div>
+				<!--middledan kichrayganda 8 va 4 ga to'rt bo'linish-->
+				<div class="col-8 col-md-6">col-4</div>
+				<div class="col-4 col-md-6">col-4</div>
+			</div>
+		</div>
+		<!--END EXAMPLE 3.1-->
+
+		<!--START EXAMPLE 3.2 -->
+		<div class="example-bs">
+
+			<div class="row">
+				<h3>3.2 Mobil versiyalar uchun</h3>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-8">col-sm-8</div>
+				<div class="col-sm-4">col-sm-4</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm">col-sm</div>
+				<div class="col-sm">col-sm</div>
+				<div class="col-sm">col-sm</div>
+			</div>
+
+		</div>
+		<!--END EXAMPLE 3.2 -->
+
+		<!--START EXAMPLE 3.3 -->
+		<div class="example-bs">
+
+			<div class="row">
+				<div class="col-sm-8">col-sm-8</div>
+				<div class="col-6 col-sm-4">col-6 col-sm-4</div>
+			</div>
+
+			<div class="row">
+				<div class="col-6 col-sm-4">col-6 col-sm-4</div>
+				<div class="col-6 col-sm-4">col-6 col-sm-4</div>
+				<div class="col-6 col-sm-4">col-6 col-sm-4</div>
+			</div>
+
+			<div class="row">
+				<div class="col-6">col-6</div>
+				<div class="col-6">col-6</div>
+			</div>
+
+		</div>
+		<!--END EXAMPLE 3.3-->
+
+		<!--START EXAMPLE 4-->
+
+		<!--START EXAMPLE 4.1-->
+		<div class="example-bs example-flex">
+
+			<div class="row">
+				<h3>4 Vertikal to'g'irlash</h3>
+			</div>
+
+			<div class="row align-items-start">
+				<div class="col">Yuqori</div>
+				<div class="col">Yuqori</div>
+				<div class="col">Yuqori</div>
+			</div>
+
+			<div class="row align-items-center">
+				<div class="col">O'rta</div>
+				<div class="col">O'rta</div>
+				<div class="col">O'rta</div>
+			</div>
+
+			<div class="row align-items-end">
+				<div class="col">Past</div>
+				<div class="col">Past</div>
+				<div class="col">Past</div>
+			</div>
+
+			<div class="row">
+				<div class="col align-self-start">Past</div>
+				<div class="col align-self-center">Past</div>
+				<div class="col align-self-end">Past</div>
+			</div>
+
+		</div>
+		<!--END EXAMPLE 4.1-->
+
+		<!--START EXAMPLE 4.2-->
+		<div class="example-bs">
+
+			<div class="row">
+				<h3>4.2 Gorizantal to'g'irlash</h3>
+			</div>
+
+			<div class="row justify-content-start">
+				<div class="col col-4">col-4</div>
+				<div class="col col-4">col-4</div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col col-4">col-4</div>
+				<div class="col col-4">col-4</div>
+			</div>
+
+			<div class="row justify-content-end">
+				<div class="col col-4">col-4</div>
+				<div class="col col-4">col-4</div>
+			</div>
+
+			<div class="row justify-content-around">
+				<div class="col col-4">col-4</div>
+				<div class="col col-4">col-4</div>
+			</div>
+
+			<div class="row justify-content-between">
+				<div class="col col-4">col-4</div>
+				<div class="col col-4">col-4</div>
+			</div>
+
+		</div>
+		<!--END EXAMPLE 4.2-->
+
+		<!--START EXAMPLE 4.3-->
+		<div class="example-bs">
+
+			<div class="row">
+				<h3>4.3 Kolonkalar orasini to'g'irlash</h3>
+			</div>
+
+			<div class="row no-gutters">
+				<div class="col-6 col-sm-4">
+					<div>col-6 col-4</div>
+				</div>
+				<div class="col-6 col-sm-4">
+					<div>col-6 col-4</div>
+				</div>
+				<div class="col-6 col-sm-4">
+					<div>col-6 col-4</div>
+				</div>
+				<div class="col-6 col-sm-4">
+					<div>col-6 col-4</div>
+				</div>
+				<div class="col-6 col-sm-4">
+					<div>col-6 col-4</div>
+				</div>
+				<div class="col-6 col-sm-4">
+					<div>col-6 col-4</div>
+				</div>
+				<div class="col-6 col-sm-4">
+					<div>col-6 col-4</div>
+				</div>
+				<div class="col-6 col-sm-4">
+					<div>col-6 col-4</div>
+				</div>
+				<div class="col-6 col-sm-4">
+					<div>col-6 col-4</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-6 col-sm-4">
+					<div>col-6 col-4</div>
+				</div>
+				<div class="col-6 col-sm-4">
+					<div>col-6 col-4</div>
+				</div>
+				<div class="col-6 col-sm-4">
+					<div>col-6 col-4</div>
+				</div>
+				<div class="col-6 col-sm-4">
+					<div>col-6 col-4</div>
+				</div>
+				<div class="col-6 col-sm-4">
+					<div>col-6 col-4</div>
+				</div>
+				<div class="col-6 col-sm-4">
+					<div>col-6 col-4</div>
+				</div>
+				<div class="col-6 col-sm-4">
+					<div>col-6 col-4</div>
+				</div>
+				<div class="col-6 col-sm-4">
+					<div>col-6 col-4</div>
+				</div>
+				<div class="col-6 col-sm-4">
+					<div>col-6 col-4</div>
+				</div>
+			</div>
+
+		</div>
+		<!--END EXAMPLE 4.3-->
+
+		<!--START EXAMPLE 4.4-->
+		<div class="example-bs">
+
+			<div class="row">
+				<h3>4.4 Kolonkalar orasini to'g'irlash</h3>
+			</div>
+
+			<div class="row">
+				<div class="col-9 ">col-9</div>
+				<div class="col-4"> col-4</div>
+				<div class="col-6">col-6</div>
+			</div>
+
+		</div>
+		<!--END EXAMPLE 4.4-->
+
+
+		<!--START EXAMPLE 5-->
+
+		<!--START EXAMPLE 5.1-->
+		<div class="example-bs">
+
+			<div class="row">
+				<h3>5.1 Elefentlar joylashuvi
+			</div>
+
+			<div class="row">
+				<div class="col">tubsiz qator</div>
+				<div class="col order-12">col-2</div>
+				<div class="col order-1">col-1</div>
+			</div>
+
+			<div class="row">
+				<div class="col">tubsiz qator</div>
+				<div class="col order-last">col-3</div>
+				<div class="col order-first">col-1</div>
+			</div>
+
+		</div>
+		<!--END EXAMPLE 5.1-->
+
+		<!--START EXAMPLE 5.2-->
+		<div class="example-bs">
+
+			<div class="row">
+				<h3>5.2 Aralash sinflar</h3>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">col-md-4</div>
+				<div class="col-md-4 offset-md-4">col-md-4 offset-md-4</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4 offset-md-2">col-md-4 offset-md-2</div>
+				<div class="col-md-4 offset-md-4">col-md-4 offset-md-2</div>
+				<div class="col-md-4 offset-md-6">col-md-4 offset-md-6</div>
+				<div class="col-md-3 offset-md-3">col-md-3 offset-md-3</div>
+				<div class="col-md-3 offset-md-3">col-md-3 offset-md-3</div>
+				<div class="col-md-6 offset-md-3">col-md-6 offset-md-3</div>
+			</div>
+
+		</div>
+		<!--END EXAMPLE 5.1-->
+
+		<!--START EXAMPLE 5.2-->
+		<div class="example-bs">
+
+			<div class="row">
+				<h3>6 O'rniga bo'lib qo'lib</h3>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-8 offset-md-8">col-sm-8
+					<div class="row">
+						<div class="col-8 col-sm-6">col-8 col-sm-6</div>
+						<div class="col-8 col-sm-6">col-8 col-sm-6</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--END CONTAINER-->
+
+	<!--START SCRIPT-->
+	<script src="js/scripts.min.js"></script>
+	<!--END SCRIPT-->
+
+</body>
+<!--END BODY-->
+
+</html>
+<!--END HTML-->
